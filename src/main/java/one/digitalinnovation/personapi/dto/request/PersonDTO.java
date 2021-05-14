@@ -9,8 +9,8 @@ import org.hibernate.validator.constraints.br.CPF;
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
+
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
 
 
@@ -35,7 +35,7 @@ import java.util.List;
         private String cpf;
 
 
-        private Date birthDate;
+        private LocalDate birthDate;
 
         @Valid
         @NotEmpty
